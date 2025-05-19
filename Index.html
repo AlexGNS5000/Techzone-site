@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechZone — Электроника и Бытовая Техника</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 15px;
+    }
+    .card-body h3 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+    .card-body a {
+      text-decoration: none;
+      color: #0073e6;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechZone</h1>
+    <p>Лучшие предложения на электронику и бытовую технику</p>
+  </header>
+
+  <div class="container">
+    <!-- Пример карточки -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1580910051076-d9b0f52c7c7a" alt="Микроволновка">
+      <div class="card-body">
+        <h3>Микроволновая печь Toshiba</h3>
+        <a href="ВАША_РЕФЕРАЛЬНАЯ_ССЫЛКА">Смотреть на Amazon</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612444530586-5cd76d6b06ae" alt="Наушники">
+      <div class="card-body">
+        <h3>Беспроводные наушники Sony</h3>
+        <a href="ВАША_РЕФЕРАЛЬНАЯ_ССЫЛКА">Смотреть на Amazon</a>
+      </div>
+    </div>
+
+    <!-- Добавьте больше карточек по аналогии -->
+  </div>
+</body>
+</html>
